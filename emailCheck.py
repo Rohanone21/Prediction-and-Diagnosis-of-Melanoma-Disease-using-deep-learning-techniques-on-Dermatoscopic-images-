@@ -2,7 +2,7 @@ import smtplib
 
 # Email credentials
 email = "rohanphadtare134@gmail.com"  # Sender's email
-password = "jtmu eyyp nckd mbjp"  # App Password
+  # App Password
 
 # Email details
 recipient = "rohanphadtare134@gmail.com"  # Receiver's email
@@ -28,3 +28,4 @@ except smtplib.SMTPException as e:
     print(f"SMTP error occurred: {e}")
 finally:
     obj.quit()  # Close the connection
+
