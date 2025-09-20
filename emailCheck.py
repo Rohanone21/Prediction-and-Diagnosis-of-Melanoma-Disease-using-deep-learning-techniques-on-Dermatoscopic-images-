@@ -1,9 +1,6 @@
 import smtplib
 
- 
-
-# Email details
-recipient = "rohanphadtare134@gmail.com"  # Receiver's email
+ # Receiver's email
 subject = "Test Email from Python"
 body = "Hi, this is a test email sent using Python SMTP."
 
@@ -26,6 +23,7 @@ except smtplib.SMTPException as e:
     print(f"SMTP error occurred: {e}")
 finally:
     obj.quit()  # Close the connection
+
 
 
 
