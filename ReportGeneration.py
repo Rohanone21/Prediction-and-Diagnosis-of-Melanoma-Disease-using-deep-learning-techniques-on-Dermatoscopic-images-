@@ -10,8 +10,7 @@ from email.mime.base import MIMEBase
 from email import encoders
 import os
 
-# Email credentials
-sender_email = "rohanphadtare134@gmail.com"
+
 
 
 # Create a Tkinter window for user input
@@ -160,5 +159,6 @@ def send_email(recipient, pdf_file):
 
 # Call the function to send the email
 send_email(recipient_email, pdf_filename)
+
 
 
